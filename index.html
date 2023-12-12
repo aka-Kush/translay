@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Translay</title>
+  </head>
+  <body>
+    <label for="input-text">Enter your text:</label>
+    <textarea
+      name="input-text"
+      id="input-text"
+      cols="30"
+      rows="10"
+      placeholder="Enter text here..."
+    ></textarea>
+    <div>
+      <label for="translate-from">Translate from:</label>
+      <select name="translate-from" id="translate-from">
+        <option value="en">English</option>
+      </select>
+      <label for="translate-to">Translate to:</label>
+      <select name="translate-to" id="translate-to">
+        <option value="es">Spanish</option>
+      </select>
+    </div>
+    <button id="translate-btn">Translate</button>
+    <button id="speak-btn">Speak</button>
+    <div id="output" aria-readonly="true"></div>
+
+    <script src="countries.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
