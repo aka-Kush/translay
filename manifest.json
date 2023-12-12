@@ -1,0 +1,9 @@
+{
+    "name": "Translay",
+    "manifest_version": 3,
+    "version": "1.0",
+    "description": "A simple translator extension",
+    "action": {
+        "default_popup": "index.html"
+    }
+}
